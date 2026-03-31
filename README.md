@@ -37,13 +37,19 @@ python main.py
 
 ---
 
-### 🔍 Task 2 — Grad-CAM (Visual Attention)
+### Task 2 — Grad-CAM (Visual Attention)
 
 Run from the **project root directory**:
 
 ```bash
 python task2/gradcam_experiment.py
 ```
+This will:
+
+* Load an image
+* Run a CNN model
+* Generate Grad-CAM heatmaps
+* Save or display attention visualizations
 
 ---
 
