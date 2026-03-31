@@ -101,7 +101,7 @@ def slic_custom(image, K=4000, m=30, max_iter=10):
             sub_dist[mask] = D2[mask]
             sub_labels[mask] = i
 
-        # --- Update centers ---
+        # Update centers
         flat_labels = labels.ravel()
         valid = flat_labels >= 0
         flat_labels = flat_labels[valid]
